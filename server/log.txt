@@ -1,0 +1,8 @@
+('Connected by:', ('31.13.255.6', 59674), 'Server status: ', b'Starting the server...')
+('Connected by:', ('31.13.255.6', 59675), 'Server status: ', b'Server is running.')
+('Connected by:', ('31.13.255.6', 59676), 'Server status: ', b'Server is running.')
+('Connected by:', ('31.13.255.6', 59677), 'Server status: ', b'Server is running.')
+('Connected by:', ('31.13.255.6', 59678), 'Server status: ', b'Server is running.')
+('Connected by:', ('31.13.255.6', 59679), 'Server status: ', b'Server is running.')
+('Connected by:', ('31.13.255.6', 59680), 'Server status: ', b'Server is running.')
+('Connected by:', ('31.13.255.6', 59681), 'Server status: ', b'Server is running.')
