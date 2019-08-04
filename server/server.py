@@ -5,14 +5,14 @@ from pprint import pprint
 is_running = False
 status = None
 
-# def write_to_log():
-# 	global addr, status
-# 	pprint(addr)
-# 	#log = open('log.txt', 'a')
-# 	address = ''.join( str(addr).split() )
-# 	# output = "Connected by:" + address + "Server status: ", str(status)
-# 	# log.write(output + "\n")
-# 	# log.close()
+def write_to_log():
+	global addr, status
+	log = open('log.txt', 'a')
+	address = ''.join( str(addr).split() )
+	output = "Connected by: " + address + " Server status: " + str(status)
+	log.write(output + "\n")
+	log.close()
+	print(output)
 
 HOST = '192.168.0.104'
 PORT = 56604
@@ -33,4 +33,4 @@ while True:
 			elif is_running == True and p.poll() != None:
 				is_running = False		
 			conn.sendall(status)
-			#write_to_log()
+			write_to_log()
