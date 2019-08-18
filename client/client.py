@@ -1,4 +1,4 @@
-from tkinter import *
+from tkinter import Tk, Button, Label, CENTER, mainloop
 from connection import *
 
 def change_label_text():
@@ -15,10 +15,11 @@ main_window.geometry('300x300')
 
 
 buttonText = "Start server remotely"
+labelText = initialize_label()
 
 b = Button(main_window, text = buttonText, command = update)
 b.place(relx = 0.5, rely = 0.5, anchor = CENTER)
-label = Label(main_window, text = 'Click the button below.')
+label = Label(main_window, text = labelText)
 label.pack()
 
 mainloop() 
