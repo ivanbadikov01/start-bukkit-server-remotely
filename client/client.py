@@ -1,11 +1,17 @@
 from tkinter import Tk, Button, Label, CENTER, mainloop
 from connection import *
+import time
+
+
+
 
 def change_label_text():
 	global label
 	label['text'] = get_label_text()
 
 def update():
+	start_server()
+	time.sleep(2)
 	start_server()
 	change_label_text()
 
